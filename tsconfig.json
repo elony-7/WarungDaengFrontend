@@ -3,9 +3,9 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["./src/components/*"],
-      "@lib/*": ["./src/lib/*"]
+      "@/*": ["./src/*"], // Fix path to match Vite alias
+      "@components/*": ["./src/components/*"], // Fix path to match Vite alias
+      "@lib/*": ["./src/lib/*"] // Fix path to match Vite alias
     }
   },
   "files": [],
