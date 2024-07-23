@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./src/components/*"],
+      "@lib/*": ["./src/lib/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
